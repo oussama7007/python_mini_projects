@@ -1,9 +1,7 @@
 print("helllo")
 
-try:
-    name = int(input("what is your name? "))
-except EOFError:
-    print("No input received (EOF).")
-except KeyboardInterrupt:
-    print("input cancelled (cntrl+C).")
-print("welcome ", name)
+print("welcome to the youtube channel name generator")
+name = input("what is your name\n")
+subject = input("what is your channel about?\n")
+
+print("you could naem it ("{subject}"with"{name}")")
