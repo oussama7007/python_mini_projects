@@ -1,7 +1,6 @@
-print("helllo")
+import random 
 
-print("welcome to the youtube channel name generator")
-name = input("what is your name\n")
-subject = input("what is your channel about?\n")
 
-print("you could naem it ("{subject}"with"{name}")")
+my_random_number = random.randint(0,13)
+
+print(my_random_number)
