@@ -1,6 +1,10 @@
-import modul 
+a = 99
 
-
-my_random_number = modul.var3
-
-# print(modul.var2)   lsdjf
+if a < 3 :
+    print("this is error")
+elif a < 30:
+    print("this is error")
+elif  a < 50 :
+    print("what the func")
+else:
+    print("this is correct \n")
